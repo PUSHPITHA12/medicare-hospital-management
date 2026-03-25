@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>🏥 MediCare</h2>
+
+<ul>
+<li onclick="location.href='dashboard.html'">Dashboard</li>
+<li onclick="location.href='patients.html'">Patients</li>
+<li onclick="location.href='appointments.html'">Appointments</li>
+<li onclick="location.href='doctors.html'">Doctors</li>
+</ul>
+
+</div>
+
+<div class="main">
+
+<h1>Hospital Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Patients</h3>
+<p>35</p>
+</div>
+
+<div class="card">
+<h3>Doctors</h3>
+<p>10</p>
+</div>
+
+<div class="card">
+<h3>Appointments</h3>
+<p>12</p>
+</div>
+
+<div class="card">
+<h3>Emergency</h3>
+<p>2</p>
+</div>
+
+</div>
+
+
+<div class="charts">
+
+<div class="chartBox">
+
+<h3>Last Week Visitors</h3>
+
+<canvas id="visitChart"></canvas>
+
+</div>
+
+
+<div class="chartBox">
+
+<h3>Monthly Patient Growth</h3>
+
+<canvas id="patientChart"></canvas>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

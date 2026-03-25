@@ -17,7 +17,7 @@ Medicare is a web-based Hospital Management System designed to manage hospital o
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](index.png)
+![Index](index.png)
 
 ### 📊 Dashboard
 ![Dashboard](dashboard.png)

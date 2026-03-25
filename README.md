@@ -14,5 +14,25 @@ Medicare is a web-based Hospital Management System designed to manage hospital o
 - Java (Backend)
 - MySQL (Database)
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](index.png)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png)
+
+### 👨‍⚕️ Patients
+![Patients](patients.png)
+
+### 📅 Appointments
+![Appointments](appointments.png)
+
+### 👨‍⚕️ Doctors
+![Doctors](Doctors.png)
+
+### 💻 Code
+![Code](code.png)
+
 ##  Author
 Pushpitha
